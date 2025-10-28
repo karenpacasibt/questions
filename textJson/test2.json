@@ -1,0 +1,137 @@
+{
+    "data": [
+        {
+            "type": "select",
+            "question": "¿Qué método HTTP se utiliza para crear un nuevo recurso en el servidor?",
+            "answers_wrong": [
+                "GET",
+                "DELETE",
+                "PATCH"
+            ],
+            "right_answer": [
+                "POST"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Qué método HTTP se usa para actualizar un recurso existente?",
+            "answers_wrong": [
+                "GET",
+                "DELETE",
+                "OPTIONS"
+            ],
+            "right_answer": [
+                "PUT"
+            ]
+        },
+        {
+            "type": "input",
+            "question": "¿Qué método HTTP elimina un recurso del servidor?",
+            "right_answer": [
+                "DELETE"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "¿Qué códigos de estado HTTP representan errores del cliente?",
+            "answers_wrong": [
+                "100",
+                "200",
+                "300"
+            ],
+            "right_answer": [
+                "400",
+                "401",
+                "403",
+                "404"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Cuál es el propósito de un encabezado HTTP?",
+            "answers_wrong": [
+                "Almacena el marcado HTML",
+                "Define los estilos CSS",
+                "Envía archivos entre clientes"
+            ],
+            "right_answer": [
+                "Contiene metadatos sobre la solicitud o respuesta"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "¿Qué comandos se usan para combinar cambios de diferentes ramas?",
+            "answers_wrong": [
+                "git remove",
+                "git upload"
+            ],
+            "right_answer": [
+                "git rebase"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "¿Cuáles de los siguientes son códigos de estado HTTP válidos para indicar éxito?",
+            "answers_wrong": [
+                "101",
+                "404",
+                "500"
+            ],
+            "right_answer": [
+                "200",
+                "201",
+                "204"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Qué comando inicializa un nuevo repositorio Git?",
+            "answers_wrong": [
+                "git start",
+                "git create",
+                "git repo-init"
+            ],
+            "right_answer": [
+                "git init"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Qué describe correctamente la función del comando 'git rebase'?",
+            "answers_wrong": [
+                "Combina dos ramas creando un nuevo commit de fusión",
+                "Descarga los últimos cambios del repositorio remoto",
+                "Elimina commits antiguos del historial local"
+            ],
+            "right_answer": [
+                "Reaplica los commits actuales sobre otra rama para mantener un historial más lineal"
+            ]
+        },
+        {
+            "type": "multiple",
+            "question": "¿Qué comandos se usan para moverse entre ramas en Git?",
+            "answers_wrong": [
+                "git connect",
+                "git upload"
+            ],
+            "right_answer": [
+                "git switch",
+                "git checkout"
+            ]
+        },
+        {
+            "type": "input",
+            "question": "¿Qué comando de Git se usa para enviar los cambios de tu repositorio local al repositorio remoto?",
+            "right_answer": [
+                "git push"
+            ]
+        },
+        {
+            "type": "input",
+            "question": "¿Cuál es el nombre de rama predeterminado al crear un nuevo repositorio Git?",
+            "right_answer": [
+                "main"
+            ]
+        }
+    ]
+}

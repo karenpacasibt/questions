@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "type": "input",
+      "question": "What type is Cranial Nerve I (Olfactory)?",
+      "answers_wrong": ["motor", "autonomic", "sensory and motor"],
+      "right_answer": ["sensory"]
+    },
+    {
+      "type": "select",
+      "question": "What is the main function of Cranial Nerve II (Optic)?",
+      "answers_wrong": ["smell", "hearing", "balance"],
+      "right_answer": ["vision"]
+    },
+    {
+      "type": "multiple",
+      "question": "Select the functions of Cranial Nerve III (Oculomotor)",
+      "answers_wrong": [
+        "jaw movement",
+        "hearing",
+        "smell"
+      ],
+      "right_answer": [
+        "eye movements",
+        "pupillary constriction (parasympathetic)"
+      ]
+    },
+    {
+      "type": "input",
+      "question": "What type is the Trochlear Nerve (IV)?",
+      "answers_wrong": ["sensory", "autonomic", "mixed"],
+      "right_answer": ["motor"]
+    },
+    {
+      "type": "multiple",
+      "question": "Select the main functions of the Trigeminal Nerve (V)",
+      "answers_wrong": [
+        "balance and hearing",
+        "eye movement",
+        "smell"
+      ],
+      "right_answer": [
+        "somatosensation of the head",
+        "motor to muscles of mastication"
+      ]
+    },
+    {
+      "type": "input",
+      "question": "What movement does the Abducens Nerve (VI) perform?",
+      "answers_wrong": ["internal rotation", "eye elevation", "medial movement"],
+      "right_answer": ["eye abduction"]
+    },
+    {
+      "type": "multiple",
+      "question": "Select the main functions of the Facial Nerve (VII)",
+      "answers_wrong": [
+        "eye movement",
+        "balance",
+        "nasal sensation"
+      ],
+      "right_answer": [
+        "movement of facial expression muscles",
+        "parasympathetic to salivary and lacrimal glands",
+        "taste from anterior two-thirds of tongue"
+      ]
+    },
+    {
+      "type": "select",
+      "question": "What senses does the Vestibulocochlear Nerve (VIII) control?",
+      "answers_wrong": ["smell", "taste", "touch"],
+      "right_answer": ["hearing and balance"]
+    },
+    {
+      "type": "multiple",
+      "question": "Select the functions of the Glossopharyngeal Nerve (IX)",
+      "answers_wrong": [
+        "eye movement",
+        "facial expression",
+        "smell"
+      ],
+      "right_answer": [
+        "taste and sensation from posterior third of tongue",
+        "motor to some pharyngeal muscles",
+        "parasympathetic to salivary glands"
+      ]
+    },
+    {
+      "type": "multiple",
+      "question": "Select the functions of the Vagus Nerve (X)",
+      "answers_wrong": [
+        "eye movement",
+        "balance",
+        "smell"
+      ],
+      "right_answer": [
+        "parasympathetic to most viscera",
+        "motor to laryngeal muscles"
+      ]
+    },
+    {
+      "type": "select",
+      "question": "Which muscles are mainly innervated by the Accessory Nerve (XI)?",
+      "answers_wrong": ["masseter and temporalis", "lateral rectus", "tongue and palate"],
+      "right_answer": ["sternocleidomastoid and trapezius"]
+    },
+    {
+      "type": "input",
+      "question": "What type is the Hypoglossal Nerve (XII)?",
+      "answers_wrong": ["sensory", "autonomic", "mixed"],
+      "right_answer": ["motor"]
+    }
+  ]
+}

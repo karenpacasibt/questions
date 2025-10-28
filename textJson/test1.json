@@ -1,0 +1,104 @@
+{
+    "data": [
+        {
+            "type": "input",
+            "question": "Escribe el método para obtener un valor almacenado bajo la clave 'userName'.",
+            "right_answer": [
+                "localStorage.getItem('userName')"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Qué método se usa para guardar un valor en localStorage?",
+            "answers_wrong": [
+                "localStorage.save()",
+                "localStorage.store()",
+                "localStorage.insertItem()"
+            ],
+            "right_answer": [
+                "localStorage.setItem()"
+            ]
+        },
+        {
+            "type": "input",
+            "question": "Escribe el método que se usa para eliminar un solo ítem del localStorage.",
+            "right_answer": [
+                "localStorage.removeItem()"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Por qué es necesario usar JSON.stringify() antes de guardar un objeto en localStorage?",
+            "answers_wrong": [
+                "Porque localStorage solo guarda arreglos",
+                "Porque los objetos se convierten en números automáticamente",
+                "Porque JSON.stringify borra los datos sensibles"
+            ],
+            "right_answer": [
+                "Porque localStorage solo almacena texto (strings)"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Qué devuelve la función JSON.parse() cuando se aplica sobre un valor de localStorage?",
+            "answers_wrong": [
+                "Un string",
+                "Un número",
+                "Una función"
+            ],
+            "right_answer": [
+                "Un objeto o arreglo JavaScript"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Qué palabra clave se utiliza para declarar una función asíncrona en JavaScript?",
+            "answers_wrong": [
+                "sync",
+                "promise",
+                "await"
+            ],
+            "right_answer": [
+                "async"
+            ]
+        },
+        {
+            "type": "input",
+            "question": "Completa: Para esperar el resultado de una promesa dentro de una función async se usa la palabra clave _______.",
+            "right_answer": [
+                "await"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Qué hace el método .then() en una promesa?",
+            "answers_wrong": [
+                "Cancela la promesa",
+                "Muestra errores si los hay",
+                "Transforma la promesa en texto"
+            ],
+            "right_answer": [
+                "Ejecuta una función cuando la promesa se resuelve correctamente"
+            ]
+        },
+        {
+            "type": "select",
+            "question": "¿Qué bloque se usa para manejar errores en una función async/await?",
+            "answers_wrong": [
+                "try/finally",
+                "await/catch",
+                "error/handle"
+            ],
+            "right_answer": [
+                "try/catch"
+            ]
+        },
+        {
+            "type": "input",
+            "question": "Escribe el método nativo que se usa para obtener datos desde una API (promesa HTTP).",
+            "right_answer": [
+                "fetch()"
+            ]
+        }
+    ]
+}
